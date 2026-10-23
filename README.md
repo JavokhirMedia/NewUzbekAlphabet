@@ -1,7 +1,7 @@
 # Özbekça (yangi) — klaviatura tartibi / keyboard layout
 
-Yangi özbek lotin alifbosi (2026-yil 21-oktabr qonuni: **Ö Ğ Ş Ç**) uçun macOS va Windows klaviatura tartibi.
-Keyboard layout for the new Uzbek Latin alphabet (law of 21 Oct 2026: **Ö Ğ Ş Ç**) for macOS and Windows.
+Yangi özbek lotin alifbosi (2026-yil 21-oktabr qonuni: **Ö Ğ Ş Ç**) uçun macOS va Windows klaviatura tartibi. Örnatuvçi — bitta fayl; örnatişda harflar qaysi tugmalarda bölişini özingiz tanlaysiz.
+Keyboard layout for the new Uzbek Latin alphabet (**Ö Ğ Ş Ç**) for macOS and Windows. One installer per OS; you pick the key scheme during installation.
 
 ## Yuklab oliş / Download
 
@@ -9,45 +9,44 @@ Keyboard layout for the new Uzbek Latin alphabet (law of 21 Oct 2026: **Ö Ğ Ş
 
 | Fayl / File | Tizim / OS |
 |---|---|
-| `UzbekNew-<ver>.dmg` | macOS 12+ |
-| `UzbekNew-Windows-<ver>.zip` | Windows 10 / 11 |
+| `UzbekNew-<ver>.pkg` | macOS 12+ (Intel va Apple Silicon) |
+| `UzbekNew-Setup-<ver>.exe` | Windows 10 / 11 (x64) |
 
-## Tugmalar / Keys
+## Ikki sxema / Two schemes
 
-Tartib oddiy **US QWERTY**. Yangi harflar macOS'da **Option**, Windows'da **AltGr** (öng Alt) bilan teriladi.
-Plain **US QWERTY**; the new letters are typed with **Option** on macOS and **AltGr** (right Alt) on Windows.
+Tartib oddiy **US QWERTY**; faqat yangi harflar qöşilgan. Örnatişda bittasini tanlaysiz (ikkalasini ham örnatiş mumkin).
 
-| Tugma / Key | Harf / Letter | + Shift |
+| Harf | **1 · Option / AltGr + harf** | **2 · Alohida tugmalar** |
 |---|---|---|
-| Option / AltGr + **S** | ş | Ş |
-| Option / AltGr + **C** | ç | Ç |
-| Option / AltGr + **O** | ö | Ö |
-| Option / AltGr + **G** | ğ | Ğ |
-| Option / AltGr + **'** | ʼ (tutuq belgisi, U+02BC) | — |
+| ş Ş | Option/AltGr + **S** | **;** |
+| ç Ç | Option/AltGr + **C** | **'** |
+| ö Ö | Option/AltGr + **O** | **[** |
+| ğ Ğ | Option/AltGr + **G** | **]** |
+| ʼ (tutuq belgisi) | Option/AltGr + **'** | **\\** |
 
-Caps Lock yoqiq bölsa ham Option/AltGr + harf bosh harfni beradi. Qolgan barça tugmalar standart US'dagidek.
+- **Sxema 1**: qolgan hamma narsa standart US. macOS'da Option, Windows'da AltGr (öng Alt). Bosh harf — Shift bilan.
+- **Sxema 2**: Turk Q klaviaturasi uslubi, tez terish uçun. Siljigan `[ { ] } ; : ' " \ |` belgilar Option/AltGr + öşa tugmaga ötadi. Option/AltGr + S/C/O/G ham işlayveradi. Tartib nomi: «Özbekça (yangi) – alohida tugmalar».
+- Caps Lock ikkala sxemada bosh harf beradi.
 
 ## Örnatiş / Install
 
-**macOS**
-1. DMG'ni oçing, `UzbekNew.bundle` ni `Keyboard Layouts` jildiga sudrang (parol söralişi mumkin).
-2. Tizimdan çiqib qayta kiring (Log out → Log in).
-3. System Settings → Keyboard → Input Sources → Edit… → "+" → qidiruvga **Özbekça** yozing → Add.
-4. Control + Space bilan almaştiring.
+### macOS
+1. `UzbekNew-<ver>.pkg` ni oçing. Paket imzolanmagan (Apple Developer ID yöq), şuning uçun macOS birinçi marta toʻxtatadi: **System Settings → Privacy & Security** → pastda **Open Anyway** (yoki Finder'da Control-klik → Open).
+2. Örnatuvçida sxemani belgilang → **Install** (parol söraladi).
+3. Tartib avtomatik ravişda Input Sources'ga qöşiladi. <kbd>⌃</kbd> + <kbd>Space</kbd> bilan **Özbekça (yangi)** ga öting va sinang: <kbd>⌥</kbd>+<kbd>S</kbd> → ş.
+4. Agar menyuda körinmasa: tizimdan çiqib qayta kiring, keyin System Settings → Keyboard → Input Sources → Edit… → **+** → qidiruvga «Özbekça» → Add.
 
-Open the DMG, drag `UzbekNew.bundle` into `Keyboard Layouts`, log out and back in, then System Settings → Keyboard → Input Sources → Edit… → "+" → search **Özbekça** → Add.
+Olib taşlaş: `/Library/Keyboard Layouts` dagi `UzbekNew*.bundle` ni öçiring va qayta kiring.
 
-**Windows**
-1. ZIP'ni oçib, `setup\setup.exe` ni işga tuşiring (SmartScreen ogohlantirsa: *More info → Run anyway*; paket imzolanmagan).
-2. Tizimdan çiqib qayta kiring.
-3. Settings → Time & Language → Language & region → Uzbek (Latin) → Keyboards → **Özbekça (yangi)**.
-4. Win + Space bilan almaştiring.
+### Windows
+1. `UzbekNew-Setup-<ver>.exe` ni işga tuşiring. Imzolanmagan: SmartScreen çiqsa **More info → Run anyway**.
+2. Sxemani tanlang → **Install**. «Tartibni mening kiritiş tillarimga qöşiş» belgisi yoqiq bölsin.
+3. Tizimdan çiqib qayta kiring (Sign out → Sign in). <kbd>Win</kbd> + <kbd>Space</kbd> bilan **Özbekça (yangi)** ga öting.
+4. Körinmasa: Settings → Time & Language → Language & region → Uzbek (Latin) → Keyboards → Add a keyboard.
 
-Unzip and run `setup\setup.exe` (SmartScreen: *More info → Run anyway*; the package is unsigned), sign out and back in, then add it under Settings → Time & Language → Language & region → Uzbek (Latin) → Keyboards. Switch with Win + Space.
-
-## Olib taşlaş / Uninstall
-
-macOS: bundle'ni `Keyboard Layouts` jildidan öçiring, tizimdan çiqib qayta kiring. Windows: Settings → Apps dan "Özbekça (yangi)" ni öçiring.
+Olib taşlaş: Settings → Apps → «Özbekça (yangi) klaviatura» → Uninstall.
 
 ---
-Muammo yoki taklif bölsa, [Issues](https://github.com/JavokhirMedia/NewUzbekAlphabet/issues) ga yozing. MIT litsenziyasi.
+English, in short: download the installer for your OS, run it (both are unsigned, so allow it once: macOS Privacy & Security → Open Anyway; Windows SmartScreen → Run anyway), choose a key scheme, install. On macOS the layout is added to your input sources automatically; on Windows sign out and back in, then switch with Win + Space.
+
+Muammo yoki taklif: [Issues](https://github.com/JavokhirMedia/NewUzbekAlphabet/issues). MIT.
