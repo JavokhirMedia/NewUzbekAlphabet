@@ -14,7 +14,7 @@ Keyboard layout for the new Uzbek Latin alphabet (**Ö Ğ Ş Ç**) for macOS and
 
 ## Ikki sxema / Two schemes
 
-Tartib oddiy **US QWERTY**; faqat yangi harflar qöşilgan. Örnatişda bittasini tanlaysiz (ikkalasini ham örnatiş mumkin).
+Tartib oddiy **US QWERTY**; faqat yangi harflar qöşilgan. Örnatişda bittasini tanlaysiz; tartib nomi har doim «Özbekça (yangi)». Boşqasiga ötiş uçun örnatuvçini qayta işga tuşiring.
 
 | Harf | **1 · Option / AltGr + harf** | **2 · Alohida tugmalar** |
 |---|---|---|
@@ -25,7 +25,7 @@ Tartib oddiy **US QWERTY**; faqat yangi harflar qöşilgan. Örnatişda bittasin
 | ʼ (tutuq belgisi) | Option/AltGr + **'** | **\\** |
 
 - **Sxema 1**: qolgan hamma narsa standart US. macOS'da Option, Windows'da AltGr (öng Alt). Bosh harf — Shift bilan.
-- **Sxema 2**: Turk Q klaviaturasi uslubi, tez terish uçun. Siljigan `[ { ] } ; : ' " \ |` belgilar Option/AltGr + öşa tugmaga ötadi. Option/AltGr + S/C/O/G ham işlayveradi. Tartib nomi: «Özbekça (yangi) – alohida tugmalar».
+- **Sxema 2**: Turk Q klaviaturasi uslubi, tez terish uçun. Siljigan `[ { ] } ; : ' " \ |` belgilar Option/AltGr + öşa tugmaga ötadi. Option/AltGr + S/C/O/G ham işlayveradi.
 - Caps Lock ikkala sxemada bosh harf beradi.
 
 ## Örnatiş / Install
